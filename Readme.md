@@ -25,3 +25,16 @@
 - EstimatedSalary — предполагаемая зарплата
 ### Целевой признак
 - Exited — факт ухода клиента
+
+## Решение
+В проекте использованы модели:
+- DecisionTreeClassifier
+- RandomForestClassifier
+- LogisticRegression
+
+### В результате на тестовых данных удалось достичь следующих показателей:
+- F1: 0.6030267753201397
+- AUC-ROC: 0.8561097694248437
+
+### Гиперпараметры выбранной модели:
+<code>RandomForestClassifier(random_state=12345, n_estimators=140, max_depth=12)</code>
